@@ -84,11 +84,29 @@ body {
 .white {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 
 
 
 }
 
+.cases {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+
+}
+
+.cases .devices {
+    width: 14.1%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+/*
 
 .jpegs .devices {
     display: inline-block;
@@ -98,6 +116,32 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.01em;
     -webkit-font-smoothing: antialiased;
+
+
+}
+
+.jpegs .cases {
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
+
+/*.jpegs .devices {
+    text-align: center;
+    display: inline-block;
+*/
 
 
 }
@@ -125,7 +169,6 @@ body {
 
 .buttons button {
     text-align: center;
-    position: absolute;
     border-radius: 3px;
     top: 50%;
     margin-top: 12rem;
