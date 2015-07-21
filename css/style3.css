@@ -106,6 +106,33 @@ body {
     box-sizing: border-box;
     height: 4em;
 }
+
+hr { 
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    margin-left: 15em;
+    margin-right: 15em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.footer {
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;    
+}
+
+.footer .social {
+    width: 4.1%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+
+}
 /*
 
 .jpegs .devices {
