@@ -1,0 +1,52 @@
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    
+}
+
+
+.top-navigation > .content {
+    height: 4.375rem;
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7px;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.background-image  {
+    background-image: url('../images/first-background-copy.jpg');
+    background-size: cover;
+    height: 45.938rem;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+body {
+    margin: 0px;
+
+}

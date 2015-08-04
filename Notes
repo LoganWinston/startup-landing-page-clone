@@ -1,0 +1,19 @@
+
+
+HTML = class
+
+CSS = the properties
+
+Property Value (i.e., values of hte properties, what comes after the colon)
+
+Place image using CSS. You can use either ... since we are placing with CSS, all of the other properties will apply nicely. 
+
+Section is empty. NEed to add a height. If no height - won't see anything. 
+
+User Agent Stylesheet = your browswer applying the property. 
+
+Can list a number of classes by space ... i.e., "content white giraffe" .... this is the concept of specificity ... It's going to apply these in order ... the last word will override any conflicts ... 
+
+The inline style itself it's the last item on the chain ... Inline styles are bad practice ... don't do them .... hasn't used inline syle in 8 years ...
+
+Absolute positioning is a red flag ...
